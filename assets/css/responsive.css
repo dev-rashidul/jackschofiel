@@ -6,14 +6,39 @@
 /* Min Width 992px and Max Width 1199px */
 
 @media (min-width: 992px) and (max-width: 1199px) {
+  .hero-content h1 {
+    font-size: 48px;
+  }
 }
 
 /* Min Width 768px and Max Width 991px */
 
 @media (min-width: 768px) and (max-width: 991px) {
+  .hero-content h1 {
+    font-size: 40px;
+  }
+
+  .hero-content p {
+    font-size: 16px;
+  }
 }
 
 /* Min Width 300px and Max Width 767px */
 
 @media (min-width: 300px) and (max-width: 767px) {
+  .hero-wrapper {
+    padding-top: 20px;
+  }
+
+  .hero-content h1 {
+    font-size: 36px;
+  }
+
+  .hero-content p {
+    font-size: 16px;
+  }
+
+  .hero-img {
+    padding-top: 60px;
+  }
 }
