@@ -9,6 +9,17 @@
   .hero-content h1 {
     font-size: 48px;
   }
+
+  .title {
+    font-size: 42px;
+    line-height: 50px;
+  }
+
+  .about-wrapper::after {
+    left: -200px;
+    width: 400px;
+    height: 400px;
+  }
 }
 
 /* Min Width 768px and Max Width 991px */
@@ -20,6 +31,22 @@
 
   .hero-content p {
     font-size: 16px;
+  }
+
+  .title,
+  .get-in-touch-content h2 {
+    font-size: 36px;
+    line-height: 42px;
+  }
+
+  .about-wrapper {
+    padding-top: 150px;
+  }
+
+  .about-wrapper::after {
+    left: -200px;
+    width: 400px;
+    height: 400px;
   }
 }
 
@@ -40,5 +67,71 @@
 
   .hero-img {
     padding-top: 60px;
+  }
+
+  .title,
+  .get-in-touch-content h2 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .about-wrapper,
+  .portfolio-wrapper,
+  .pricing-wrapper,
+  .testimonial-wrapper,
+  .blog-wrapper,
+  .get-in-touch-wrapper,
+  .footer-wrapper {
+    padding-top: 100px;
+  }
+
+  .about-wrapper::after {
+    left: -200px;
+    width: 400px;
+    height: 400px;
+  }
+
+  .pricing-wrapper::after {
+    top: 350px;
+    right: -100px;
+    width: 300px;
+    height: 300px;
+  }
+
+  .pricing-plan {
+    padding: 40px 20px 130px;
+  }
+
+  .pricing-plan-name h4 {
+    font-size: 20px;
+  }
+
+  .pricing-content h1 {
+    font-size: 42px;
+  }
+
+  .popular-tag {
+    top: 20px;
+    right: 20px;
+  }
+
+  .popular-tag span {
+    padding: 10px 24px;
+  }
+
+  .get-in-touch-container {
+    padding: 50px 0;
+  }
+
+  .get-in-touch-content {
+    max-width: 90%;
+    width: 100%;
+    margin: auto;
+    flex-direction: column;
+  }
+
+  .git-btn {
+    padding-top: 20px;
+    text-align: center;
   }
 }

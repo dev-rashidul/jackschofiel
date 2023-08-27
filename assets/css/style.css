@@ -1,7 +1,7 @@
 /* Base Style CSS Start */
 
 /* Font */
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700&family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
 
 * {
   margin: 0;
@@ -40,6 +40,23 @@ img {
   background: #4270ec;
   padding: 16px 40px;
   border-radius: 15px;
+}
+
+.sub-title {
+  font-size: 14px;
+  font-weight: 500 !important;
+  line-height: 24px;
+  letter-spacing: 0.7px;
+  text-transform: uppercase;
+  color: #1e1c31;
+}
+
+.title {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 61px;
+  color: #1e1c31;
+  padding-top: 10px;
 }
 
 /* Base Style CSS End */
@@ -166,7 +183,6 @@ img {
 
 .hero-wrapper {
   padding-top: 100px;
-  padding-bottom: 100px;
 }
 
 .hero-content span {
@@ -198,3 +214,604 @@ img {
 /* Hero Section CSS End */
 
 /* Header Part CSS End */
+
+/* Main Part CSS Start */
+
+/* Work Process Section CSS Start */
+
+.work-process-wrapper {
+  padding-top: 150px;
+}
+
+.work-process-card-icon {
+  margin-right: 20px;
+}
+
+.work-process-card-icon img {
+  max-width: 70px;
+  height: 70px;
+}
+
+.work-process-card-content h5 {
+  font-size: 18px;
+  font-weight: 500;
+  color: #1e1c31;
+  margin-bottom: 5px;
+}
+
+.work-process-card-content p {
+  color: rgba(30, 28, 49, 0.5);
+  font-size: 14px;
+  line-height: 22px;
+}
+
+/* Work Process Section CSS End */
+
+/* About Section CSS Start */
+
+.about-wrapper {
+  padding-top: 200px;
+}
+
+.about-wrapper::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: -300px;
+  width: 700px;
+  height: 700px;
+  background: linear-gradient(
+    49deg,
+    rgba(65, 88, 208, 0.5) 0%,
+    rgba(200, 80, 192, 0.5) 61.73%,
+    rgba(255, 204, 112, 0.5) 100%
+  );
+  filter: blur(75px);
+  border-radius: 100%;
+  z-index: -1;
+}
+
+.about-content p {
+  font-size: 14px;
+  line-height: 25px;
+  letter-spacing: 0.42px;
+  color: rgba(0, 0, 0, 0.5);
+  padding: 10px 0 40px;
+}
+
+.about-content span {
+  font-weight: 700;
+}
+
+/* About Section CSS End */
+
+/* Portfolio Section CSS Start */
+
+.portfolio-wrapper {
+  padding-top: 150px;
+}
+
+.portfolio-content p {
+  font-size: 14px;
+  line-height: 25px;
+  letter-spacing: 0.42px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.portfolio-content span {
+  font-weight: 700;
+}
+
+.view-all-btn a {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: 0.84px;
+  text-transform: uppercase;
+  color: #4270ec;
+}
+
+.view-all-btn a i {
+  padding-left: 5px;
+}
+
+.portfolio-container {
+  padding-top: 80px;
+}
+
+.portfolio-card-img img {
+  max-width: 100%;
+  width: 100%;
+  min-height: 100%;
+  max-height: 500px;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 30px;
+}
+
+.portfolio-card-btn {
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+}
+
+.portfolio-card-btn a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  background: #ffffff;
+  border-radius: 100%;
+}
+
+.portfolio-card-btn a i {
+  font-size: 18px;
+  color: #4270ec;
+}
+
+/* Portfolio Section CSS End */
+
+/* Pricing Section CSS Start */
+
+.pricing-wrapper {
+  padding-top: 130px;
+  overflow: hidden;
+}
+
+.pricing-wrapper::after {
+  position: absolute;
+  content: "";
+  top: 200px;
+  right: -200px;
+  width: 490px;
+  height: 490px;
+  border-radius: 496px;
+  background: linear-gradient(
+    49deg,
+    rgba(65, 88, 208, 0.4) 0%,
+    rgba(200, 80, 192, 0.4) 61.73%,
+    rgba(255, 204, 112, 0.4) 100%
+  );
+  filter: blur(75px);
+  z-index: -1;
+}
+
+.pricing-top {
+  max-width: 590px;
+  width: 100%;
+  margin: auto;
+  padding-bottom: 70px;
+}
+
+.pricing-top p {
+  font-family: "DM Sans", sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  color: #6f6c90;
+}
+
+.pricing-plan {
+  position: relative;
+  height: 100%;
+  background: #fff;
+  padding: 40px 40px 130px;
+  box-shadow: 0px 2px 12px 0px rgba(20, 20, 43, 0.08);
+  border: 1px solid #eff0f6;
+  border-radius: 24px;
+}
+
+.pricing-plan-name img {
+  margin-right: 20px;
+}
+
+.pricing-plan-name h6 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: #6f6c90;
+  margin: 0;
+}
+
+.pricing-plan-name h4 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: #170f49;
+}
+
+.pricing-content {
+  padding-top: 12px;
+}
+
+.pricing-content p {
+  font-family: "DM Sans", sans-serif;
+  font-size: 18px;
+  color: #6f6c90;
+}
+
+.pricing-content h1 {
+  font-family: "DM Sans", sans-serif;
+  font-family: DM Sans;
+  font-size: 54px;
+  font-weight: 700;
+  color: #170f49;
+}
+
+.pricing-content h1 span {
+  font-family: "DM Sans", sans-serif;
+  font-family: DM Sans;
+  font-size: 20px;
+  font-weight: 500;
+  color: #6f6c90;
+}
+
+.pricing-content h5 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #170f49;
+  padding: 10px 0 20px;
+}
+
+.pricing-features li {
+  display: flex;
+  font-family: "DM Sans", sans-serif;
+  font-size: 18px;
+  color: #170f49;
+  margin-bottom: 12px;
+}
+
+.pricing-features li i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25px;
+  height: 25px;
+  color: #ffffff;
+  background: #5032f9;
+  margin-right: 14px;
+  border-radius: 100%;
+}
+
+.get-started-btn {
+  position: absolute;
+  width: 80%;
+  left: 40px;
+  bottom: 40px;
+}
+
+.get-started-btn a {
+  display: block;
+  width: 100%;
+  font-family: "DM Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  color: #fff;
+  background: #5032f9;
+  margin-top: 40px;
+  padding: 20px 0;
+  border-radius: 50px;
+}
+
+.popular-plan {
+  background: #4a3aff;
+}
+
+.popular-plan .pricing-plan-name h6 {
+  color: #eff0f6;
+}
+
+.popular-plan .pricing-plan-name h4 {
+  color: #ffffff;
+}
+
+.popular-plan .pricing-content p {
+  color: #d9dbe9;
+}
+
+.popular-plan .pricing-content h1 {
+  color: #ffffff;
+}
+
+.popular-plan .pricing-content h1 span {
+  color: #d9dbe9;
+}
+
+.popular-plan .pricing-content h5 {
+  color: #ffffff;
+}
+
+.popular-plan .pricing-features li {
+  color: #d9dbe9;
+}
+
+.popular-plan .pricing-features li i {
+  color: #4a3aff;
+  background: #ffffff;
+}
+
+.popular-plan .get-started-btn a {
+  color: #5032f9;
+  background: #fff;
+}
+
+.popular-tag {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+
+.popular-tag span {
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 12px 24px;
+  border-radius: 10px;
+}
+
+/* Pricing Section CSS End */
+
+/* Testimonial Section CSS Start */
+
+.testimonial-wrapper {
+  padding-top: 130px;
+}
+
+.testimonial-top {
+  max-width: 625px;
+  width: 100%;
+  margin: auto;
+  padding-bottom: 110px;
+}
+
+.testimonial-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+.testimonial-slider::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 266px;
+  height: 266px;
+  border-radius: 266px;
+  background: linear-gradient(
+    180deg,
+    rgba(65, 88, 208, 0.2) 0%,
+    rgba(200, 80, 192, 0.2) 52.84%,
+    rgba(255, 204, 112, 0.2) 100%
+  );
+  filter: blur(35px);
+}
+
+.testimonial-slide {
+  max-width: 500px;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  z-index: 100;
+}
+
+.client-img > img {
+  width: 108px !important;
+  height: 108px;
+  margin: auto;
+  border: 8px solid #ffffff;
+  border-radius: 100%;
+}
+
+.testimonial-slide-content p {
+  font-size: 14px;
+  line-height: 22px;
+  color: #000;
+  padding-top: 30px;
+}
+
+.client-name {
+  padding-top: 30px;
+}
+
+.client-name h6 {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #1e1c31;
+  margin: 0;
+}
+
+.client-name span {
+  font-size: 12px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #1e1c31;
+}
+
+.owl-dots {
+  margin-top: 30px !important;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+  background: #b3c7f8 !important;
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+  background: #4270eb !important;
+}
+
+/* Testimonial Section CSS End */
+
+/* Blog Section CSS Start */
+
+.blog-wrapper {
+  padding-top: 160px;
+}
+
+.blog-top {
+  padding-bottom: 80px;
+}
+
+.blog-card {
+  position: relative;
+  height: 100%;
+}
+
+.blog-card-img img {
+  max-width: 100%;
+  width: 100%;
+  min-height: 100%;
+  max-height: 280px;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 24px;
+}
+
+.blog-card-content {
+  padding: 25px 20px 0;
+}
+
+.blog-card-content span {
+  font-size: 12px;
+  font-weight: 500;
+  color: rgba(30, 28, 49, 0.6);
+}
+
+.blog-card-content a {
+  display: block;
+  font-size: 14px;
+  color: #1e1c31;
+  padding: 8px 0 10px;
+}
+
+.blog-btn {
+  position: absolute;
+  left: 20px;
+  bottom: -35px;
+}
+
+.blog-btn a {
+  font-size: 14px;
+  color: #4270ec;
+}
+
+/* Blog Section CSS End */
+
+/* Get In Touch Section CSS Start */
+
+.get-in-touch-wrapper {
+  padding-top: 160px;
+}
+
+.get-in-touch-container {
+  padding: 100px 0;
+  background: linear-gradient(35deg, #527ff6 10%, #e16dd9 75.27%, #ffcc70 106%);
+  border-radius: 30px;
+}
+
+.get-in-touch-content {
+  max-width: 70%;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+
+.get-in-touch-content h2 {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 51px;
+  color: #fff;
+}
+
+.git-btn a {
+  display: block;
+  width: 164px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #4270ec;
+  background: #fff;
+  padding: 14px;
+  border-radius: 12px;
+}
+
+/* Get In Touch Section CSS End */
+
+/* Main Part CSS End */
+
+/* Footer Part CSS Start */
+
+.footer-wrapper {
+  padding: 160px 0 50px;
+}
+
+.footer-contact h5,
+.footer-about h5 {
+  font-size: 18px;
+  font-weight: 500;
+  color: #222136;
+  margin-bottom: 30px;
+}
+
+.footer-contact ul li {
+  padding-bottom: 15px;
+}
+
+.footer-contact ul li,
+.footer-contact ul li a,
+.footer-about p {
+  font-size: 14px;
+  color: rgba(34, 33, 54, 0.7);
+}
+
+.footer-subscribe h5 {
+  font-size: 18px;
+  font-weight: 500;
+  color: #222136;
+  margin-bottom: 20px;
+}
+
+.subscribe-form form {
+  display: flex;
+  justify-content: space-between;
+  background: #ecf0fc;
+  margin-bottom: 25px;
+  border-radius: 10px;
+}
+
+.subscribe-form form input {
+  padding: 12px 20px;
+  background: transparent;
+  border: none;
+}
+
+.subscribe-form form input:focus {
+  outline: 0;
+}
+
+.subscribe-form form button {
+  padding-right: 15px;
+  border: none;
+  border-radius: 10px;
+}
+
+.subscribe-form form ::placeholder {
+  font-size: 14px;
+  color: rgba(34, 33, 54, 0.8);
+}
+
+.footer-social li {
+  padding-right: 20px;
+}
+
+/* Footer Part CSS End */
