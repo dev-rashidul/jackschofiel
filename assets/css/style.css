@@ -790,6 +790,7 @@ img {
 }
 
 .subscribe-form form input {
+  max-width: 85%;
   padding: 12px 20px;
   background: transparent;
   border: none;
@@ -800,7 +801,8 @@ img {
 }
 
 .subscribe-form form button {
-  padding-right: 15px;
+  max-width: 40px;
+  width: 100%;
   border: none;
   border-radius: 10px;
 }
